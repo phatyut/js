@@ -24,30 +24,14 @@ function seedata() {
 document.getElementById("additems").addEventListener("click", seedata);
 
 
-// let one = 100;
-// let show = '';
-// for(let i = 10 ; i < one ; i +=10){
-//         show +=i+ "</br>";
-// }
-
-// document.getElementById("showresult").innerHTML= show
 
 
+let  personname =["nary","yut","check","titi","dara"];
+let toshow= "";
+let i = 0 ;
+while(i<personname.length){
+    toshow += personname[i] + "</br>";
+    i++;
+}
+document.getElementById("showresult").innerHTML= toshow;
 
-// let show = "";
-// let one = 0;
-// while(one < 1000){
-//     show+=one+"</br>";
-//     one++;
-// }
-// document.getElementById("showresult").innerHTML = show;
-
-
-
-let show  ="";
-let number = 0 ;
-do{
-    show += number ;
-    number++;
-}while(number < 1000);
-document.getElementById("showresult").innerHTML = number;
